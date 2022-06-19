@@ -1,0 +1,100 @@
+.regcon {
+	height: 100vh;
+
+	.register {
+		// background-color: lightblue;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+
+		.regtop {
+			// border: 0.5px solid;
+			height: 40vh;
+			width: 100%;
+			// padding-left: 200px;
+			background-color: #2069e0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.topcon {
+				// padding: 20px;
+				.topheading {
+					text-align: center;
+					color: white;
+					font-size: 55px;
+					// margin-bottom: 10px;
+				}
+				.links {
+					display: flex;
+					gap: 40px;
+					color: white;
+					font-weight: 600;
+					font-size: 14px;
+					margin-top: 55px;
+
+					.link {
+						cursor: pointer;
+						&:hover {
+							color: gold;
+						}
+					}
+				}
+			}
+		}
+		.regbottom {
+			// border: 0.5px solid;
+			box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+			border-radius: 10px;
+			padding: 30px 20px;
+			width: 25%;
+
+			.formheading {
+				text-align: center;
+				margin-bottom: 15px;
+				color: #2069e0;
+			}
+
+			.regform {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				padding: 0 25px;
+				font-size: 16px;
+
+				.reginput {
+					padding: 15px 30px;
+					border: none;
+					font-size: 16px;
+
+					background-color: rgb(230, 230, 230);
+					border-radius: 5px;
+				}
+				.forgetpass {
+					font-size: 13px;
+					// background-color: yellow;
+					margin-left: auto;
+					font-weight: 600;
+					color: grey;
+					cursor: pointer;
+				}
+
+				.regbutton {
+					padding: 10px 15px;
+					color: white;
+					background-color: #2069e0;
+					border: none;
+					cursor: pointer;
+					border-radius: 5px;
+					font-weight: bold;
+
+					&:hover {
+						background-color: #0a45a3;
+					}
+				}
+			}
+		}
+	}
+}

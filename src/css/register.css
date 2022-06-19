@@ -1,0 +1,117 @@
+.regcon {
+  height: 100vh;
+}
+
+.regcon .register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.regcon .register .regtop {
+  height: 40vh;
+  width: 100%;
+  background-color: #2069e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.regcon .register .regtop .topcon .topheading {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+
+.regcon .register .regtop .topcon .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 55px;
+}
+
+.regcon .register .regtop .topcon .links .link {
+  cursor: pointer;
+}
+
+.regcon .register .regtop .topcon .links .link:hover {
+  color: gold;
+}
+
+.regcon .register .regbottom {
+  -webkit-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+          box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 25%;
+}
+
+.regcon .register .regbottom .formheading {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2069e0;
+}
+
+.regcon .register .regbottom .regform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 0 25px;
+  font-size: 16px;
+}
+
+.regcon .register .regbottom .regform .reginput {
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.regcon .register .regbottom .regform .forgetpass {
+  font-size: 13px;
+  margin-left: auto;
+  font-weight: 600;
+  color: grey;
+  cursor: pointer;
+}
+
+.regcon .register .regbottom .regform .regbutton {
+  padding: 10px 15px;
+  color: white;
+  background-color: #2069e0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.regcon .register .regbottom .regform .regbutton:hover {
+  background-color: #0a45a3;
+}

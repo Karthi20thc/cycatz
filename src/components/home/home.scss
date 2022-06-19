@@ -1,0 +1,21 @@
+.homecon {
+	height: 100vh;
+	background-color: #2069e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.homeheading {
+		font-size: 90px;
+		color: white;
+		margin-bottom: 20px;
+	}
+	.welcomemail {
+		font-size: 20px;
+		text-align: center;
+		background-color: rgb(168, 144, 8);
+		color: white;
+		padding: 20px;
+		border-radius: 10px;
+	}
+}

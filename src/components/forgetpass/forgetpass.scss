@@ -1,0 +1,57 @@
+.forgetpasscon {
+	height: 100vh;
+	background-color: #2069e0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.forgetpassword {
+		background-color: white;
+		box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+		border-radius: 10px;
+		width: 25%;
+
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 40px;
+
+		.formheading {
+			text-align: center;
+			margin-bottom: 15px;
+			color: #2069e0;
+		}
+
+		.forgetpassinput {
+			padding: 10px 20px;
+			border: none;
+			font-size: 16px;
+
+			background-color: rgb(230, 230, 230);
+			border-radius: 5px;
+		}
+		.resetmessage {
+			background-color: rgb(9, 175, 31);
+			color: white;
+			font-weight: 600;
+			border-radius: 10px;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.resetbutton {
+			padding: 10px 15px;
+			color: white;
+			background-color: #2069e0;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+			font-weight: bold;
+
+			&:hover {
+				background-color: #0a45a3;
+			}
+		}
+	}
+}

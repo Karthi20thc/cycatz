@@ -1,0 +1,67 @@
+.forgetpasscon {
+  height: 100vh;
+  background-color: #2069e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.forgetpasscon .forgetpassword {
+  background-color: white;
+  -webkit-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+          box-shadow: 0 8px 28px rgba(0, 0, 0, 0.562);
+  border-radius: 10px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+.forgetpasscon .forgetpassword .formheading {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2069e0;
+}
+
+.forgetpasscon .forgetpassword .forgetpassinput {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.forgetpasscon .forgetpassword .resetmessage {
+  background-color: #09af1f;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.forgetpasscon .forgetpassword .resetbutton {
+  padding: 10px 15px;
+  color: white;
+  background-color: #2069e0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.forgetpasscon .forgetpassword .resetbutton:hover {
+  background-color: #0a45a3;
+}
